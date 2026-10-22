@@ -1,0 +1,43 @@
+::selection {
+  background: #f2c14e;
+  color: #140e0c;
+}
+
+html,
+body {
+  background-color: #070b14;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 80;
+  background: #f2c14e;
+  color: #140e0c;
+  padding: 0.55rem 0.8rem;
+  text-decoration: none;
+  font-family: Fraunces, Georgia, serif;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+:focus-visible {
+  outline: 2px solid #f2c14e;
+  outline-offset: 3px;
+}
