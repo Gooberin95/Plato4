@@ -25,6 +25,9 @@ uploaded_files/
 reflex.db
 *.db
 
+# CI output. The workflow rebuilds this directory.
+deploy-package/
+
 # Environment and editor files
 .env
 .env.*

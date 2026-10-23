@@ -51,6 +51,10 @@ The backend listens on port 8000. The site you open is the frontend on port 3000
 
 Fraunces and Newsreader load from Google Fonts, with Palatino and Georgia as the offline fallbacks.
 
+## Deploying to Azure
+
+The GitHub Actions workflow builds this site on every push to `main`. Deploying to Azure App Service is described in [DEPLOY.md](DEPLOY.md). Those deploy jobs stay skipped until an Azure subscription exists and the variable `AZURE_DEPLOY_ENABLED` is set to `true`.
+
 ## Pages
 
 | Path | What it is |
